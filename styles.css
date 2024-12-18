@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-image: url('https://preview.redd.it/tragedeigh-awards-2024-v0-a1d8wu0unw5e1.png?auto=webp&s=9520ce0693a1483ad54cfeacc0a52e151cf0cc33');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+label {
+  color: aliceblue;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <title>Homework 17.12.24</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>17.12.24</h1>
+    </main>
+    <form method="POST">
+      <label for="name">Name</label>
+      <br />
+      <input
+        id="name"
+        name="name"
+        type="text"
+        required
+        placeholder="Skriv navn her"
+      />
+      <br />
+      <select id="race" name="race">
+        <option value="fisk">Fisk</option>
+        <option value="disk">Disk</option>
+        <option value="tisk">Tisk</option>
+        <option value="pisk">Pisk</option>
+      </select>
+      <br />
+      <button>Submit</button>
+    </form>
+    <h3></h3>
+    <form method="POST" id="calculator">
+      <label for="number1">Input 1:</label>
+      <input id="number1" name="number1" type="number" />
+      <br />
+      <label for="number2">Input 2:</label>
+      <input id="number2" name="number2" type="number" />
+      <select id="formula" name="formula">
+        <option value="add">Plus</option>
+        <option value="subtract">Minus</option>
+        <option value="multiply">Gange</option>
+        <option value="divide">Dele</option>
+      </select>
+      <button id="math-button" type="submit">do the numbers</button>
+    </form>
+  </body>
+</html>
